@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './App.css';
+import { FaBars } from 'react-icons/fa';
+
+import rohiniPglogo from './images/RPGlogo.png';
 
 import SideMenu from './sidemenu';
 
-import { FaBars } from 'react-icons/fa';
 
 const Header = () => {
 
@@ -18,6 +19,7 @@ const Header = () => {
         <>
             <div className="header">
                 <FaBars onClick={handleSideMenu} style={{ cursor: "pointer" }} />
+                <img src={rohiniPglogo} />
             </div>
             {showSideMenu && <SideMenu />}
         </>

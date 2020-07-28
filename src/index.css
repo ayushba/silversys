@@ -3,18 +3,23 @@ body {
 }
 
 .header {
-  height: 81px;
+  height: 61px;
   background-color: brown;
   display: flex;
   align-items: center;
   font-size: 25px;
   padding-left: 15px;
 }
+.header img {
+  padding-left: 20px;
+  height: 80%;
+  width: 100px;
+}
 
 .sidemenu {
-  height: 87%;
+  height: 90%;
   background-color: grey;
-  width: 25%;
+  width: 20%;
   position: absolute;
 }
 
@@ -26,7 +31,7 @@ body {
 .side-menu-navigation-link {
   margin-left: 15px;
   margin-top: 10px;
-  font-size: 25px;
+  font-size: 21px;
   display: flex;
   align-items: center;
 }
@@ -46,8 +51,8 @@ body {
   border: none;
   background-color: grey;
   color: black;
-  font-size: 25px;
-  margin-top: -10px;
+  font-size: 20px;
+  margin-top: -5px;
   margin-left: 5px;
   cursor: pointer;
 }
