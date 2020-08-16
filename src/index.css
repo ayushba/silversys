@@ -10,9 +10,12 @@ body {
   font-size: 25px;
   padding-left: 15px;
 }
+.header a {
+  height: 80%;
+}
 .header img {
   padding-left: 20px;
-  height: 80%;
+  height: 100%;
   width: 100px;
 }
 
@@ -21,6 +24,7 @@ body {
   background-color: grey;
   width: 20%;
   position: absolute;
+  z-index: 1000;
 }
 
 .side-menu-profile-section {
@@ -62,4 +66,9 @@ body {
   text-align: center;
   width: 100%;
   bottom: 0;
+}
+
+.dashboard-header {
+  display: flex;
+  height: 250px;
 }

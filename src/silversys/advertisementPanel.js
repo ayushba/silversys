@@ -3,7 +3,7 @@ import React from 'react';
 import { MdHotel, MdPeople, MdForum, MdPersonAdd } from 'react-icons/md';
 import silverSysAdImage from '../images/silversys.jpg';
 
-import './maincontent.css';
+import './css/maincontent.css';
 
 const AdvertisementPanelAndStats = () => {
     return (

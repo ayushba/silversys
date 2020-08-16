@@ -19,7 +19,9 @@ const Header = () => {
         <>
             <div className="header">
                 <FaBars onClick={handleSideMenu} style={{ cursor: "pointer" }} />
-                <img src={rohiniPglogo} />
+                <a href="/">
+                    <img src={rohiniPglogo} />
+                </a>
             </div>
             {showSideMenu && <SideMenu />}
         </>

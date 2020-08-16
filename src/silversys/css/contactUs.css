@@ -1,0 +1,41 @@
+.detail-table {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.detail-table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+.detail-table td, .detail-table th {
+    border: 1px solid #dddddd;
+    padding: 5px 25px 5px 25px;
+}
+.detail-table th {
+    text-align: right;
+}
+.detail-table tr:nth-child(even) {
+    background-color: #f6f2f2;
+}
+
+@media only screen and (max-width: 850px) {
+    .detail-table table {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .detail-table {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .detail-table table {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .detail-table {
+        width: 80%;
+    }
+}

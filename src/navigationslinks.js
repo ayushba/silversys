@@ -32,15 +32,15 @@ const NavigationLinks = () => {
             </div>
             <div className="side-menu-navigation-link">
                 <GiIsland />
-                <a href="/">Post New Property</a>
+                <a href="/newProperty">Post New Property</a>
             </div>
             <div className="side-menu-navigation-link">
                 <GiHouseKeys />
-                <a href="/">My Property</a>
+                <a href="/myproperty">My Property</a>
             </div>
             <div className="side-menu-navigation-link">
                 <GiBugleCall />
-                <a href="/">My Response</a>
+                <a href="/myResponse">My Response</a>
             </div>
             <div className="side-menu-navigation-link">
                 <GoSearch />
@@ -48,7 +48,7 @@ const NavigationLinks = () => {
             </div>
             <div className="side-menu-navigation-link" style={{ marginTop: 20 }}>
                 <GiPhone />
-                <a href="/">Contact Us</a>
+                <a href="/contactUs">Contact Us</a>
             </div>
             <Modal
                 title="Basic Modal"

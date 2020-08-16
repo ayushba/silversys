@@ -2,13 +2,19 @@ import React from 'react';
 import './App.css';
 
 import Header from './header';
-import MainContent from './silversys/maincontent';
+import NavigationRoutes from './navigationRoutes';
+// import AdvertisementPanelAndStats from './silversys/advertisementPanel';
 
 function App() {
   return (
     <div>
       <Header />
-      <MainContent />
+      <>
+        {/* <div className="dashboard-header">
+          <AdvertisementPanelAndStats />
+        </div> */}
+        <NavigationRoutes />
+      </>
     </div>
   );
 }

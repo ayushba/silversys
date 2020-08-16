@@ -1,0 +1,121 @@
+.edit-form {
+    width: 70%;
+    margin-left: 5%;
+    /* display: flex; */
+    /* justify-content: space-around; */
+
+}
+.pg-details .ant-col {
+    width: 45%;
+}
+.pg-details-options .ant-col {
+    width: 25%;
+}
+.property-address-details {
+    margin-top: 30px;
+}
+.property-details {
+    margin-top: 30px;
+}
+.form-column-response {
+    margin-left: 115px;
+}
+.options-column-handle {
+    margin-left: 105px;
+}
+.form-label {
+    margin-bottom: 0;
+}
+.advertise-panel {
+    background-color: blue;
+    width: 20%;
+    margin-left: 30px;
+    padding: 20px;
+}
+@media only screen and (max-width: 1668px) {
+    .form-column-response {
+        margin-left: 85px;
+    }
+    .pg-details .ant-col {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 1240px) {
+    .pg-details .ant-col {
+        width: 43%;
+    }   
+    .options-column-handle {
+        margin-left: 85px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .options-column-handle {
+        margin-left: 75px;
+    }
+}
+@media only screen and (max-width: 892px) {
+    .pg-details .ant-col {
+        width: 42%;
+    }
+    .options-column-handle {
+        margin-left: 65px;
+    }   
+}
+    @media only screen and (max-width: 805px) {
+    .form-column-response {
+        margin-left: 45px;
+    }
+    .pg-details .ant-col {
+        width: 45%;
+    }
+    .options-column-handle {
+        margin-left: 60px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .form-column-response {
+        margin-left: 40px;
+    }
+    .pg-details .ant-col {
+        width: 45%;
+    }
+    .options-column-handle {
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .form-column-response {
+        margin-left: 0px;
+    }
+    .pg-details .ant-col {
+        width: 100%;
+    }
+    .options-column-handle {
+        margin-left: 0px;
+    }
+    .pg-details-options .ant-col {
+        width: 100%;
+    }
+    .edit-form {
+        width: 85%;
+        margin-left: 5%;
+        /* display: flex; */
+        /* justify-content: space-around; */
+    
+    }
+    .advertise-panel {
+        visibility: hidden;
+        background-color: white;
+        width: 0%;
+        margin-left: 0%;
+        padding: 0px;
+    }
+}
+/* .edit-form input {
+    border: none;
+    border-bottom: 1px solid black;
+} */
+
+.btn {
+    display: block
+}
